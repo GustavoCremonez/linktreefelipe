@@ -1,0 +1,130 @@
+/*
+* IMPORT AREA
+*/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/*
+* IMPORT AREA
+*/
+
+/*
+* RESET AREA
+*/
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*
+* END RESET AREA
+*/
+
+/*
+* BODY CONFIGS
+*/
+body {
+	font-family: 'Itim', cursive;
+	background-image: url('../../images/background-image.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 95vh;
+	padding: 2rem;
+	width: 100vw;
+}
+/*
+* BODY CONFIGS
+*/
+
+#wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
+
+	border-radius: 1rem;
+
+	width: 90%;
+	margin: 0 auto;
+
+	background: rgba(48, 48, 48, 0.7);
+	box-shadow: 0 4px 30px rgba(78, 78, 78, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#logo {
+	width: 12rem;
+	height: 12rem;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	transition: all 0.2s;
+}
+
+#logo:hover {
+	transform: scale(1.1);
+}
+
+#title {
+	font-size: 2.7rem;
+	text-align: center;
+	color: white;
+	border-bottom: 0.3rem solid rgb(255, 0, 0);
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+		rgba(0, 0, 0, 0.22) 0px 20px 12px;
+}
+
+#links {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	gap: 2rem;
+	padding: 3rem;
+	width: 100%;
+}
+
+.link-item {
+	padding: 1rem 5rem;
+	background: rgb(211, 0, 0);
+	background: rgb(211, 0, 0);
+	background: rgb(233, 128, 128);
+	background: linear-gradient(
+		43deg,
+		rgba(233, 128, 128, 1) 0%,
+		rgba(233, 85, 85, 1) 31%,
+		rgba(238, 25, 25, 1) 70%,
+		rgba(125, 19, 19, 1) 100%
+	);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(18.3px);
+	-webkit-backdrop-filter: blur(18.3px);
+	color: white;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.link-item:hover {
+	transform: scale(1.02);
+}
+
+.item-logo {
+	position: absolute;
+	left: 1rem;
+}
+
+#footer {
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
